@@ -1,5 +1,5 @@
 $breakpoints: (
-  "xs": 0.
+  "xs": 0,
   "sm": 480px,
   "md": 720px,
   "lg": 960px,
@@ -45,26 +45,5 @@ $breakpoints: (
 @mixin breakpoint($bp: 0) {
   @media (min-width: $bp) {
     @content;
-  }
-}
-
-.responsive-text {
-  @include xs {
-    color: red;
-  }
-  @include sm {
-    color: blue;
-  }
-  @include md {
-    color: green;
-  }
-  @include lg {
-    color: purple;
-  }
-  @include xl {
-    color: orange;
-  }
-  @include breakpoint(1400px) {
-    color: pink;
   }
 }
