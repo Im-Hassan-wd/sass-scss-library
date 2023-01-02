@@ -2614,7 +2614,8 @@ img {
 .btn-outlined-primary:hover {
   background-color: #326dee;
 }
-.btn-outlined-primary .btn-comlement-primary {
+
+.btn-complement-primary {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -2624,7 +2625,7 @@ img {
   background-color: #326dee;
   color: light-comp(#326dee);
 }
-.btn-outlined-primary .btn-comlement-primary:hover {
+.btn-complement-primary:hover {
   color: #326dee;
   background-color: light-comp(#326dee);
 }
@@ -2655,7 +2656,8 @@ img {
 .btn-outlined-secondary:hover {
   background-color: #1ac888;
 }
-.btn-outlined-secondary .btn-comlement-secondary {
+
+.btn-complement-secondary {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -2665,7 +2667,7 @@ img {
   background-color: #1ac888;
   color: light-comp(#1ac888);
 }
-.btn-outlined-secondary .btn-comlement-secondary:hover {
+.btn-complement-secondary:hover {
   color: #1ac888;
   background-color: light-comp(#1ac888);
 }
@@ -2696,7 +2698,8 @@ img {
 .btn-outlined-error:hover {
   background-color: #d32752;
 }
-.btn-outlined-error .btn-comlement-error {
+
+.btn-complement-error {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -2706,7 +2709,7 @@ img {
   background-color: #d32752;
   color: light-comp(#d32752);
 }
-.btn-outlined-error .btn-comlement-error:hover {
+.btn-complement-error:hover {
   color: #d32752;
   background-color: light-comp(#d32752);
 }
@@ -2737,7 +2740,8 @@ img {
 .btn-outlined-info:hover {
   background-color: #f6c31c;
 }
-.btn-outlined-info .btn-comlement-info {
+
+.btn-complement-info {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -2747,7 +2751,7 @@ img {
   background-color: #f6c31c;
   color: light-comp(#f6c31c);
 }
-.btn-outlined-info .btn-comlement-info:hover {
+.btn-complement-info:hover {
   color: #f6c31c;
   background-color: light-comp(#f6c31c);
 }
@@ -2778,7 +2782,8 @@ img {
 .btn-outlined-blue:hover {
   background-color: #1919e6;
 }
-.btn-outlined-blue .btn-comlement-blue {
+
+.btn-complement-blue {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -2788,7 +2793,7 @@ img {
   background-color: #1919e6;
   color: light-comp(#1919e6);
 }
-.btn-outlined-blue .btn-comlement-blue:hover {
+.btn-complement-blue:hover {
   color: #1919e6;
   background-color: light-comp(#1919e6);
 }
@@ -2819,7 +2824,8 @@ img {
 .btn-outlined-red:hover {
   background-color: #e61919;
 }
-.btn-outlined-red .btn-comlement-red {
+
+.btn-complement-red {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -2829,7 +2835,7 @@ img {
   background-color: #e61919;
   color: light-comp(#e61919);
 }
-.btn-outlined-red .btn-comlement-red:hover {
+.btn-complement-red:hover {
   color: #e61919;
   background-color: light-comp(#e61919);
 }
@@ -2860,7 +2866,8 @@ img {
 .btn-outlined-yellow:hover {
   background-color: #e6e619;
 }
-.btn-outlined-yellow .btn-comlement-yellow {
+
+.btn-complement-yellow {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -2870,7 +2877,7 @@ img {
   background-color: #e6e619;
   color: light-comp(#e6e619);
 }
-.btn-outlined-yellow .btn-comlement-yellow:hover {
+.btn-complement-yellow:hover {
   color: #e6e619;
   background-color: light-comp(#e6e619);
 }
@@ -2901,7 +2908,8 @@ img {
 .btn-outlined-green:hover {
   background-color: #19e635;
 }
-.btn-outlined-green .btn-comlement-green {
+
+.btn-complement-green {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -2911,7 +2919,7 @@ img {
   background-color: #19e635;
   color: light-comp(#19e635);
 }
-.btn-outlined-green .btn-comlement-green:hover {
+.btn-complement-green:hover {
   color: #19e635;
   background-color: light-comp(#19e635);
 }
@@ -2942,7 +2950,8 @@ img {
 .btn-outlined-orange:hover {
   background-color: #ffa600;
 }
-.btn-outlined-orange .btn-comlement-orange {
+
+.btn-complement-orange {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -2952,7 +2961,7 @@ img {
   background-color: #ffa600;
   color: light-comp(#ffa600);
 }
-.btn-outlined-orange .btn-comlement-orange:hover {
+.btn-complement-orange:hover {
   color: #ffa600;
   background-color: light-comp(#ffa600);
 }
@@ -2983,7 +2992,8 @@ img {
 .btn-outlined-purple:hover {
   background-color: #9900ff;
 }
-.btn-outlined-purple .btn-comlement-purple {
+
+.btn-complement-purple {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -2993,7 +3003,7 @@ img {
   background-color: #9900ff;
   color: light-comp(#9900ff);
 }
-.btn-outlined-purple .btn-comlement-purple:hover {
+.btn-complement-purple:hover {
   color: #9900ff;
   background-color: light-comp(#9900ff);
 }
@@ -3024,7 +3034,8 @@ img {
 .btn-outlined-gray:hover {
   background-color: #808080;
 }
-.btn-outlined-gray .btn-comlement-gray {
+
+.btn-complement-gray {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -3034,7 +3045,7 @@ img {
   background-color: #808080;
   color: light-comp(#808080);
 }
-.btn-outlined-gray .btn-comlement-gray:hover {
+.btn-complement-gray:hover {
   color: #808080;
   background-color: light-comp(#808080);
 }
@@ -3065,7 +3076,8 @@ img {
 .btn-outlined-black:hover {
   background-color: black;
 }
-.btn-outlined-black .btn-comlement-black {
+
+.btn-complement-black {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -3075,7 +3087,7 @@ img {
   background-color: black;
   color: light-comp(black);
 }
-.btn-outlined-black .btn-comlement-black:hover {
+.btn-complement-black:hover {
   color: black;
   background-color: light-comp(black);
 }
@@ -3106,7 +3118,8 @@ img {
 .btn-outlined-white:hover {
   background-color: white;
 }
-.btn-outlined-white .btn-comlement-white {
+
+.btn-complement-white {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -3116,7 +3129,7 @@ img {
   background-color: white;
   color: light-comp(white);
 }
-.btn-outlined-white .btn-comlement-white:hover {
+.btn-complement-white:hover {
   color: white;
   background-color: light-comp(white);
 }
