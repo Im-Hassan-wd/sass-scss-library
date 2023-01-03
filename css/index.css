@@ -3438,26 +3438,6 @@ img {
   border-radius: 50%;
 }
 
-.bt-0 {
-  border-top: 0;
-}
-
-.bt-1 {
-  border-top: 1px;
-}
-
-.bt-2 {
-  border-top: 3px;
-}
-
-.bt-3 {
-  border-top: 4px;
-}
-
-.bt-4 {
-  border-top: 5px;
-}
-
 .display-n {
   display: none;
 }
