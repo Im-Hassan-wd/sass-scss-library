@@ -31,6 +31,9 @@ $base-border-radius: 20px;
 
 // box-shadow 
 $base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+$box-shadow-sm: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+$box-shadow-md: 4px 4px 8px rgba(0, 0, 0, 0.1);
+$box-shadow-lg: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
 // font sizes
 $base-font-size: 1rem;
