@@ -112,18 +112,6 @@ img {
   align-items: center;
 }
 
-.align-space-between {
-  align-items: space-between;
-}
-
-.align-space-around {
-  align-items: space-around;
-}
-
-.align-space-evenly {
-  align-items: space-evenly;
-}
-
 @media (min-width: 0) {
   .col-1-xs {
     box-sizing: border-box;
@@ -434,6 +422,70 @@ img {
     width: 100%;
   }
 }
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.top-0- {
+  top: 0;
+}
+
+.top-10 {
+  top: 10%;
+}
+
+.top-10- {
+  top: -10%;
+}
+
+.top-20 {
+  top: 20%;
+}
+
+.top-20- {
+  top: -20%;
+}
+
+.top-30 {
+  top: 30%;
+}
+
+.top-30- {
+  top: -30%;
+}
+
+.top-40 {
+  top: 40%;
+}
+
+.top-40- {
+  top: -40%;
+}
+
+.top-50 {
+  top: 50%;
+}
+
+.top-50- {
+  top: -50%;
+}
+
 .text-primary {
   color: #326dee;
 }
@@ -2984,6 +3036,12 @@ img {
 .card .card-body a {
   text-decoration: underline;
 }
+.card .card-image {
+  width: 200px;
+}
+.card img {
+  width: 100%;
+}
 
 .btn {
   text-decoration: none;
@@ -3910,6 +3968,26 @@ img {
 
 .br-full {
   border-radius: 50%;
+}
+
+.shadow {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-none {
+  box-shadow: 0;
+}
+
+.shadow-sm {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.shadow-md {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-lg {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .display-n {

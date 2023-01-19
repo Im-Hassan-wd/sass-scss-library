@@ -8,10 +8,10 @@
   <title>Scss sass library</title>
 </head>
 <body>
-  <nav class="navbar-purple text-white mb-4">
+  <nav class="navbar-purple text-white mb-4 sticky top">
     <div class="container">
       <h2 class="title">Shinobi CSS</h2>
-      <p>A lightweight CSS on steroid</p>
+      <p>A lightweight CSS on steroid :)</p>
     </div>
   </nav>
   <div class="container">
@@ -54,8 +54,19 @@
   <span class="bg-primary-light-4 text-white">primary light 4</span> |
   <span class="bg-primary-light-6 text-white">primary light 6</span> |
   <span class="bg-primary-light-8 text-white">primary light 8</span> |
+  <br><br>
 
-  <hr class="mt-2 mb-2">
+  <span class="bg-error-dark-8 text-white">error dark 8</span> |
+  <span class="bg-error-dark-6 text-white">error dark 6</span> |
+  <span class="bg-error-dark-4 text-white">error dark 4</span> |
+  <span class="bg-error-dark-2 text-white">error dark 2</span> |
+  <span class="bg-error text-white">error</span> |
+  <span class="bg-error-light-2 text-white">error light 2</span> |
+  <span class="bg-error-light-4 text-white">error light 4</span> |
+  <span class="bg-error-light-6 text-white">error light 6</span> |
+  <span class="bg-error-light-8 text-white">error light 8</span> |
+
+  <hr class="mt-4 mb-2">
 
   <!-- font sizes -->
   <h2 class="mb-2">Font Sizes</h2>
@@ -65,33 +76,51 @@
   <div class="font-xl">this is an extra large font</div>
   <div class="font-xxl">this is an extra, extra large font</div>
 
-  <hr class="mt-2 mb-2">
+  <hr class="mt-4 mb-2">
   
   <!-- buttons -->
   <h2>Buttons</h2>
   <a href="#" class="btn">default btn</a>
-  <a href="#" class="btn-primary text-white">click me</a>
-  <a href="#" class="btn-secondary text-white">click me</a>
-  <a href="#" class="btn-error text-white">click me</a>
-  <a href="#" class="btn-info">click me</a>
-  <a href="#" class="btn-outlined-purple text-purple text-hover-white">click me</a>
-  <a href="#" class="btn-outlined-orange text-orange text-hover-white">click me</a>
-  <a href="#" class="btn-complement-purple">click me</a>
-  <a href="#" class="btn-complement-primary">click me</a>
+  <a href="#" class="btn-primary text-white">primary btn</a>
+  <a href="#" class="btn-secondary text-white">secondary btn</a>
+  <a href="#" class="btn-error text-white">error btn</a>
+  <a href="#" class="btn-info">info btn</a>
+  <a href="#" class="btn-outlined-purple text-purple text-hover-white">outlined</a>
+  <a href="#" class="btn-outlined-orange text-orange text-hover-white">outlined</a>
 
-  <hr class="mt-2 mb-2">
+  <hr class="mt-4 mb-2">
+  
+  <!-- inputs -->
+  <h2>inputs</h2>
+  
+  <hr class="mt-4 mb-2">
   
   <!-- cards -->
   <h2>Cards</h2>
-  <div class="card">
+  <div class="card mb-1">
     <h1 class="card-title">This is card title</h1>
     <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione pariatur delectus <a href="#">perspiciatis</a> quidem dicta dolores voluptatem voluptatibus laudantium minima.</p>
+    <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione pariatur delectus <a href="#">perspiciatis</a> quidem dicta dolores voluptatem voluptatibus laudantium minima.</p>
+  </div>
+  <div class="card display-f align-center mb-5">
+    <div class="card-image">
+      <img src="https://via.placeholder.com/150" alt="">
+    </div>
+    <div class="card-title ml-1">This is card title</div>
+    <p class="card-body ml-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione pariatur delectus <a href="#">perspiciatis</a> quidem dicta dolores voluptatem voluptatibus laudantium minima.</p>
+  </div>
+  <div class="card mt-3 relative">
+    <div class="card-image absolute top-50-">
+      <img class="br-full" src="https://via.placeholder.com/150" alt="">
+    </div>
+    <div class="card-title mt-5 ml-1">This is card title</div>
+    <p class="card-body ml-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ratione pariatur delectus <a href="#">perspiciatis</a> quidem dicta dolores voluptatem voluptatibus laudantium minima.</p>
   </div>
 
-  <hr class="mt-2 mb-2">
+  <hr class="mt-4 mb-2">
   <!-- grid system -->
   <h2 class="mb-1">Grid System</h2>
-  <div class="row gap-2 justify-center">
+  <div class="row gap-2 justify-center mb-1">
     <div class="col-12-xm col-5-sm col-3-xl">
       <div class="card">
         <h3 class="card-title">Hello, weirdos</h3>
@@ -117,12 +146,44 @@
       </div>
     </div>
   </div>
+  <div class="row gap-2 justify-center mb-1">
+    <div class="col-12-xm col-6-sm col-4-xl">
+      <div class="card">
+        <h3 class="card-title">Hello, weirdos</h3>
+        <p class="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    <div class="col-12-xm col-6-sm col-4-xl">
+      <div class="card">
+        <h3 class="card-title">Hello, weirdos</h3>
+        <p class="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    <div class="col-12-xm col-6-sm col-4-xl">
+      <div class="card">
+        <h3 class="card-title">Hello, weirdos</h3>
+        <p class="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    <div class="col-12-xm col-6-sm col-4-xl">
+      <div class="card">
+        <h3 class="card-title">Hello, weirdos</h3>
+        <p class="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </div>
 
-  <hr class="mt-2 mb-2">
+  <hr class="mt-4 mb-2">
+
+  <!-- shadows -->
+  <h2 class="mb-1">Shadows</h2>
+  <div class="shadow-sm p-3 m-1">small box shadow</div>
+  <div class="shadow-md p-3 m-1">medium box shadow</div>
+  <div class="shadow-lg p-3 m-1">large box shadow</div>
   
   <!-- utilities -->
 
-  <hr class="mt-2 mb-2">
+  <hr class="mt-4 mb-2">
   </div>
 </body>
 </html>

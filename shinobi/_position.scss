@@ -1,0 +1,41 @@
+$positions: relative, absolute, sticky, fixed;
+$directions: (
+  "top": (
+    "prefix": "top",
+    "values": (
+      "0": 0,
+      "10": 10%,
+      "20": 20%,
+      "30": 30%,
+      "40": 40%,
+      "50": 50%
+    ),
+  ),
+);
+
+// defining positions
+@each $val in $positions {
+  .#{$val} {
+    position: $val;
+  }
+}
+// generate utility classes
+@each $property, $map in $directions {
+    $prefix: map-get($map, "prefix" );
+    $values: map-get($map, "values" );
+  
+    @each $k, $v in $values {
+      @if($k == "default") {
+        .#{$prefix} {
+          #{$property}: $v;
+        }
+      } @else {
+        .#{$prefix}-#{$k} {
+          #{$property}: $v;
+        }
+        .#{$prefix}-#{$k}- {
+          #{$property}: -$v;
+        }
+      }
+    }
+  }

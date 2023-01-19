@@ -138,6 +138,16 @@ $utilities: (
       "full": 50%,
     )
   ),
+  "box-shadow": (
+    "prefix": "shadow",
+    "values": (
+      "default": $base-box-shadow,
+      "none": 0,
+      "sm": $box-shadow-sm,
+      "md": $box-shadow-md,
+      "lg": $box-shadow-lg
+    )
+  ),
   "display": (
     "prefix": "display",
     "values": (
@@ -176,6 +186,5 @@ $utilities: (
         #{$property}: $v;
       }
     }
-    
   }
 }
